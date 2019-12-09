@@ -161,4 +161,6 @@ Plus de problème de collision !
 
 ###### Docs
 
-- 
+- Doc de composer : https://getcomposer.org/doc/
+- Spec du PSR-4 : https://www.php-fig.org/psr/psr-4/
+- Mémo pour composer : https://composer.json.jolicode.com/
