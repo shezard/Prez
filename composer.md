@@ -158,3 +158,7 @@ $maClass = new MaClasse(); // Défini dans vendor/mon-vendor/ma-lib/src/mes/clas
 ```
 
 Plus de problème de collision !
+
+###### Docs
+
+- 
