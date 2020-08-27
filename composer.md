@@ -113,8 +113,8 @@ Exemple de hiérarchie:
 
 ```
  - src
-   - mes
-     - classes
+   - Mes
+     - Classes
        - MaClasse.php
        - MonAutreClasse.php  
 ```
@@ -122,7 +122,7 @@ Exemple de hiérarchie:
 Le fichier `MaClass.php`
 ```php
 <?php
-namespace MaLib\mes\classes;
+namespace MaLib\Mes\Classes;
 
 class MaClasse
 {
@@ -152,9 +152,9 @@ Exemple de `composer.json` utilisant le PSR-4
 
 require_once('vendor/autoload.php'); // Composer crée un autoloader
 
-use MaLib\mes\classes\MaClasse;
+use MaLib\Mes\Classes\MaClasse;
 
-$maClass = new MaClasse(); // Défini dans vendor/mon-vendor/ma-lib/src/mes/classes/MaClasse.php
+$maClass = new MaClasse(); // Défini dans vendor/mon-vendor/ma-lib/src/Mes/Classes/MaClasse.php
 ```
 
 Plus de problème de collision !
